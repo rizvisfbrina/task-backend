@@ -38,7 +38,6 @@ then
     done < $file
     echo "]"
     )
-    echo "$res"
           
     log="$(basename ${file%.*}).json"
 else
